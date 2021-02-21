@@ -29,8 +29,8 @@ public class Persandian {
     }
 
     private static String cari(char c) {
-        // loop baris dan kolom sebanyak karakter (a -> j = 10)
-        for (int i = 0; i < 10; i++) {
+        // loop baris dan kolom sebanyak karakter (3 baris 10 kolom)
+        for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 10; j++) {
                 // jika karakter masukan dari user sama dengan karakter maka kembalikan indeks karakternya
                 if (String.valueOf(c).equalsIgnoreCase(karakter[i][j])) {
